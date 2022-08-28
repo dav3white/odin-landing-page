@@ -1,0 +1,15 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+button {
+  color: #FFFFFF;
+  font-weight: 900;
+  background-color: #3882F6;
+  padding: 4px 24px;
+  border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+}
