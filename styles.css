@@ -1,3 +1,8 @@
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     font-family: Roboto, sans-serif;
 }
@@ -21,6 +26,7 @@ a {
 .top-section {
     background-color: #1F2937;
     padding: 12px 0px 0px 192px;
+    border: 0px;
 }
 
 .header-logo {
@@ -67,4 +73,8 @@ img {
 
 .top-content {
     padding-right: 128px;
+}
+
+.subtext {
+    padding: 16px 0px;
 }
