@@ -6,10 +6,65 @@ button {
   color: #FFFFFF;
   font-weight: 900;
   background-color: #3882F6;
-  padding: 4px 24px;
+  padding: 8px 28px;
   border-radius: 6px;
+  border-color: #3882F6;
+  font-size: 18px;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top-section {
+    background-color: #1F2937;
+    padding: 12px 0px 0px 192px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    padding-right: 48px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.top-body {
+    display: flex;
+    flex-direction: row;
+    padding: 72px 48px 72px 0px;
+    align-items: center;
+}
+
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top-content {
+    padding-right: 128px;
 }
