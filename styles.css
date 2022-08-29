@@ -32,13 +32,14 @@ a {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 900
+    font-weight: 900;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 8px;
 }
 
 .links {
@@ -61,10 +62,7 @@ h1 {
 }
 
 
-img {
-    width: 400px;
-    height: 200px;
-}
+
 
 .subtext {
     color: #E5E7EB;
@@ -77,4 +75,42 @@ img {
 
 .subtext {
     padding: 16px 0px;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 24px;
+}
+
+.picboxes {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+.imgbox {
+    border-radius: 12px;
+}
+
+.section2 {
+    margin-left: 192px;
+}
+
+.s2header {
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
 }
