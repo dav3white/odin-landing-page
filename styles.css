@@ -25,7 +25,7 @@ a {
 
 .top-section {
     background-color: #1F2937;
-    padding: 12px 0px 0px 192px;
+    padding: 12px 128px;
     border: 0px;
 }
 
@@ -97,7 +97,7 @@ h2 {
 }
 
 .section2 {
-    margin-left: 192px;
+    margin: 48px 128px;
 }
 
 .s2header {
@@ -110,7 +110,28 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 200px;
+    max-width: 150px;
     flex-wrap: wrap;
     text-align: center;
 }
+
+.section3 {
+    padding: 96px 256px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.quote-sig {
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: right;
+}
+
